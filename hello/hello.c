@@ -69,9 +69,6 @@ int main( int argc, char *argv[] )
       sleep ( 1 );
       leds_off();
 
-      // try the scanner function
-      leds_scan();
-
    } // end of infinite loop
 
    printf("\n\nDone!\n");
