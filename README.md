@@ -1,7 +1,7 @@
 # pidp8-testing
 PiDP-8 testing &amp; utilities
 
-Just some quick utilities I threw together to test the LEDs on my PiDP-8 kit. I used Paul Bernard's <a href="http://downspout.ca/pidp-test.zip">pidp-test</a> utility as my starting point for learning how to control the PiDP-8's LEDs via GPIO in C (see the <a href="https://groups.google.com/forum/#!searchin/pidp-8/pidp-test/pidp-8/UmIaBv2L9Ts/As6UGcNjCQAJ">Google Group thread</a> for more information). All of the programs rely on the include libraries in the root directory of the project (ledcontrol, ledlocations, pdpcontrol, and strcontrol).
+Just some quick utilities I threw together to test the LEDs on my PiDP-8 kit. I used Paul Bernard's <a href="http://downspout.ca/pidp-test.zip">pidp-test</a> utility as my starting point for learning how to control the PiDP-8's LEDs via GPIO in C (see the <a href="https://groups.google.com/forum/#!searchin/pidp-8/pidp-test/pidp-8/UmIaBv2L9Ts/As6UGcNjCQAJ">Google Group thread</a> for more information). All of the programs rely on the include libraries in the root directory of the project (ledcontrol, ledlocations, pdpcontrol, strcontrol, and gpio).
 
 <b>HELLO</b><br>
 A simple "Hello World!" program that can be used as a basic LED test. It loops through turning on ALL of the LEDs and then a simple box animation.
