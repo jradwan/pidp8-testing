@@ -11,6 +11,3 @@ Sometimes during my testing I've had random LEDs get stuck on. This simple progr
 
 <b>MATRIX</b><br>
 A menu-driven LED test program which is what I spent most of my coding time on once I had learned the basics by writing the two programs above. It includes options to turn all of the LEDs on and off at once, single step through each LED in sequence, animate a chase sequence, and allow for a user-defined animation path. 
-
-<b>DEEPER THOUGHT</b><br>
-Originally by Norman Davies (see <a href="https://groups.google.com/forum/#!topic/pidp-8/tbciVNoZJbw">here</a>), this is my modified version of a C-based blinkenlights program for the PiDP-8 that can run outside of simh (and thus use less CPU).
